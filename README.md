@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @luizdominisini
 - 👀 I’m interested in ... an internship that gives me a lot of knowledge
-- 🌱 I’m currently learning ... Java
+- 🌱 I’m currently learning ... Javascript, html e css
 - 💞️ I’m looking to collaborate on ... companies
 - 📫 How to reach me ... email: dominizi.luiz@gmail.com or instagram: luiz_dominisini
 
