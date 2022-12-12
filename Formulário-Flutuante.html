@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Questão 08</title>
+</head>
+
+<body>
+
+    <div class="container my-3">
+        <div class="row mb-3">
+            <form class="col-lg-8 col-xl-6 col-12 mx-auto">
+                <h1 class="display-5">Cadastro de Cliente</h1>
+                <hr>
+                <!-- Nome Completo -->
+                <div class="row mb-3">
+
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" id="nome" class="form-control" placeholder=" ">
+                            <label for="nome" class="form-label">Nome Completo</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- CPF, Data de Nascimento, Gênero -->
+                <div class="row mb-3">
+                    <!-- CPF -->
+                    <div class="col-lg-4 col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="cpf" placeholder=" ">
+                            <label for="cpf" class="form-label">CPF</label>
+                        </div>
+                    </div>
+                    <!-- Data de Nascimento -->
+                    <div class="col-lg-4 col-12">
+                        <div class="form-floating">
+                            <input type="date" class="form-control" id="data" placeholder=" ">
+                            <label for="data" class="form-label">Data de Nascimento</label>
+                        </div>
+                    </div>
+                    <!-- Gênero -->
+                    <div class="col-lg-4 col-12">
+                        <div class="form-floating">
+                            <select name="select_Gênero" id="gen" class="form-select">
+                                <option value="neutro" selected>Escolha um gênero...</option>
+                                <option value="mas">Masculino</option>
+                                <option value="fem">Feminino</option>
+                            </select>
+                            <label for="gen" class="form-label">Gênero</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Endereço Completo -->
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea name="endereço" id="text-area" class="form-control" placeholder=" "></textarea>
+                            <label for="text-area" class="form-label">Endereço Completo</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botão -->
+                <button class="btn btn-primary">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
